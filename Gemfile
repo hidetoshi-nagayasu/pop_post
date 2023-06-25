@@ -67,3 +67,14 @@ group :development do
   # gem "spring"
 end
 
+group :test do
+  # Unit test
+  gem 'rspec-rails'
+
+  # Dummy data or instances
+  gem "factory_bot_rails"
+
+  # Dummy name
+  gem 'faker'
+end
+
