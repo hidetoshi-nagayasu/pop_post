@@ -5,6 +5,7 @@ create_table "users", id: :bigint, unsigned: true, force: :cascade, options: "EN
   t.string "password", null: false
   t.datetime "created_at", precision: 6, null: false
   t.datetime "updated_at", precision: 6, null: false
+  t.datetime "deleted_at", precision: 6
 end
 
 create_table "posts", id: :bigint, unsigned: true, force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8mb4" do |t|
