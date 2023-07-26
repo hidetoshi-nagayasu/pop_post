@@ -3,12 +3,20 @@ create_table "users", id: :bigint, unsigned: true, force: :cascade, options: "EN
   t.string "introduction"
   t.string "email", null: false, unique: true
   t.string "crypted_password", null: false
-  t.string "salt"
+  t.string "salt", default: nil
+  t.string "remember_me_token", default: nil
+  t.datetime "remember_me_token_expires_at", default: nil
+  t.string "reset_password_token", default: nil
+  t.datetime "reset_password_token_expires_at", default: nil
+  t.datetime "reset_password_email_sent_at", default: nil
+  t.integer "access_count_to_reset_password_page", default: 0
   t.datetime "created_at", precision: 6, null: false
   t.datetime "updated_at", precision: 6, null: false
   t.datetime "deleted_at", precision: 6
 
   t.index ["email"], name: "email_unique_idx", unique: true
+  t.index ["remember_me_token"], name: "remember_me_token"
+  t.index ["reset_password_token"], name: "reset_password_token"
 end
 
 create_table "posts", id: :bigint, unsigned: true, force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8mb4" do |t|
