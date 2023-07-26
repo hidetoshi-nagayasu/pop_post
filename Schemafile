@@ -6,3 +6,25 @@ create_table "users", id: :bigint, unsigned: true, force: :cascade, options: "EN
   t.datetime "created_at", precision: 6, null: false
   t.datetime "updated_at", precision: 6, null: false
 end
+
+create_table "posts", id: :bigint, unsigned: true, force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8mb4" do |t|
+  t.references "user", null: false, unsigned: true, foreign_key: true
+  t.text "body", null: false
+  t.datetime "created_at", precision: 6, null: false
+  t.datetime "updated_at", precision: 6, null: false
+end
+
+create_table "reactions", id: :bigint, unsigned: true, force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8mb4" do |t|
+  t.string "name", null: false, unique: true
+  t.string "image", null: false
+  t.datetime "created_at", precision: 6, null: false
+  t.datetime "updated_at", precision: 6, null: false
+end
+
+create_table "post_reactions", id: :bigint, unsigned: true, force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8mb4" do |t|
+  t.references "post", null: false, unsigned: true, foreign_key: true
+  t.references "user", null: false, unsigned: true, foreign_key: true
+  t.references "reaction", null: false, unsigned: true, foreign_key: true
+  t.datetime "created_at", precision: 6, null: false
+  t.datetime "updated_at", precision: 6, null: false
+end
