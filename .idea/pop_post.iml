@@ -39,6 +39,7 @@
     <orderEntry type="library" scope="PROVIDED" name="activerecord (v7.0.5, rbenv: 3.1.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="activestorage (v7.0.5, rbenv: 3.1.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="activesupport (v7.0.5, rbenv: 3.1.2) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="bcrypt (v3.1.18, rbenv: 3.1.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="bindex (v0.8.1, rbenv: 3.1.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="bootsnap (v1.16.0, rbenv: 3.1.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="builder (v3.2.4, rbenv: 3.1.2) [gem]" level="application" />
@@ -55,13 +56,17 @@
     <orderEntry type="library" scope="PROVIDED" name="factory_bot (v6.2.1, rbenv: 3.1.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="factory_bot_rails (v6.2.0, rbenv: 3.1.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="faker (v3.2.0, rbenv: 3.1.2) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="faraday (v2.7.2, rbenv: 3.1.2) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="faraday-net_http (v3.0.2, rbenv: 3.1.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="ffi (v1.15.5, rbenv: 3.1.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="globalid (v1.1.0, rbenv: 3.1.2) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="hashie (v5.0.0, rbenv: 3.1.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="i18n (v1.14.1, rbenv: 3.1.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="io-console (v0.6.0, rbenv: 3.1.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="irb (v1.7.0, rbenv: 3.1.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="jbuilder (v2.11.5, rbenv: 3.1.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="jsbundling-rails (v1.1.2, rbenv: 3.1.2) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="jwt (v2.6.0, rbenv: 3.1.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="loofah (v2.21.3, rbenv: 3.1.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="mail (v2.8.1, rbenv: 3.1.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="marcel (v1.0.2, rbenv: 3.1.2) [gem]" level="application" />
@@ -69,6 +74,7 @@
     <orderEntry type="library" scope="PROVIDED" name="mini_mime (v1.1.2, rbenv: 3.1.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="minitest (v5.18.1, rbenv: 3.1.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="msgpack (v1.7.1, rbenv: 3.1.2) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="multi_xml (v0.6.0, rbenv: 3.1.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="mysql2 (v0.5.4, rbenv: 3.1.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="net-imap (v0.3.6, rbenv: 3.1.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="net-pop (v0.1.2, rbenv: 3.1.2) [gem]" level="application" />
@@ -76,6 +82,8 @@
     <orderEntry type="library" scope="PROVIDED" name="net-smtp (v0.3.3, rbenv: 3.1.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="nio4r (v2.5.9, rbenv: 3.1.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="nokogiri (v1.15.2, rbenv: 3.1.2) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="oauth (v0.6.2, rbenv: 3.1.2) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="oauth2 (v2.0.9, rbenv: 3.1.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="pry (v0.14.2, rbenv: 3.1.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="pry-nav (v1.0.0, rbenv: 3.1.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="pry-rails (v0.3.9, rbenv: 3.1.2) [gem]" level="application" />
@@ -99,6 +107,8 @@
     <orderEntry type="library" scope="PROVIDED" name="sass-rails (v6.0.0, rbenv: 3.1.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sassc (v2.4.0, rbenv: 3.1.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sassc-rails (v2.1.2, rbenv: 3.1.2) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="snaky_hash (v2.0.1, rbenv: 3.1.2) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="sorcery (v0.16.4, rbenv: 3.1.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sprockets (v4.2.0, rbenv: 3.1.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sprockets-rails (v3.4.2, rbenv: 3.1.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="stimulus-rails (v1.2.1, rbenv: 3.1.2) [gem]" level="application" />
@@ -107,6 +117,7 @@
     <orderEntry type="library" scope="PROVIDED" name="timeout (v0.4.0, rbenv: 3.1.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="turbo-rails (v1.4.0, rbenv: 3.1.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="tzinfo (v2.0.6, rbenv: 3.1.2) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="version_gem (v1.1.1, rbenv: 3.1.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="web-console (v4.2.0, rbenv: 3.1.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="websocket-driver (v0.7.5, rbenv: 3.1.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="websocket-extensions (v0.1.5, rbenv: 3.1.2) [gem]" level="application" />
@@ -155,6 +166,7 @@
         <option value="scaffold_controller" />
         <option value="scss:assets" />
         <option value="scss:scaffold" />
+        <option value="sorcery:install" />
         <option value="stimulus" />
         <option value="system_test" />
         <option value="task" />
@@ -211,6 +223,7 @@
         <option value="scaffold_controller" />
         <option value="scss:assets" />
         <option value="scss:scaffold" />
+        <option value="sorcery:install" />
         <option value="stimulus" />
         <option value="system_test" />
         <option value="task" />
@@ -446,6 +459,17 @@
           <RakeTaskImpl description="Prints out your Rack middleware stack" fullCommand="middleware" id="middleware" />
           <RakeTaskImpl description="Restart app by touching tmp/restart.txt" fullCommand="restart" id="restart" />
           <RakeTaskImpl description="Generate a cryptographically secure secret key (this is typically used to generate a secret for cookie sessions)" fullCommand="secret" id="secret" />
+          <RakeTaskImpl description="Run all specs in spec directory (excluding plugin specs)" fullCommand="spec" id="spec" />
+          <RakeTaskImpl id="spec">
+            <subtasks>
+              <RakeTaskImpl description="Run the code examples in spec/helpers" fullCommand="spec:helpers" id="helpers" />
+              <RakeTaskImpl description="Run the code examples in spec/models" fullCommand="spec:models" id="models" />
+              <RakeTaskImpl description="Run the code examples in spec/requests" fullCommand="spec:requests" id="requests" />
+              <RakeTaskImpl description="Run the code examples in spec/views" fullCommand="spec:views" id="views" />
+              <RakeTaskImpl description="" fullCommand="spec:prepare" id="prepare" />
+              <RakeTaskImpl description="" fullCommand="spec:statsetup" id="statsetup" />
+            </subtasks>
+          </RakeTaskImpl>
           <RakeTaskImpl description="Report code statistics (KLOCs, etc) from the application or engine" fullCommand="stats" id="stats" />
           <RakeTaskImpl id="stimulus">
             <subtasks>
@@ -530,6 +554,7 @@
               <RakeTaskImpl description="Checks project structure for Zeitwerk compatibility" fullCommand="zeitwerk:check" id="check" />
             </subtasks>
           </RakeTaskImpl>
+          <RakeTaskImpl description="" fullCommand="default" id="default" />
           <RakeTaskImpl description="" fullCommand="environment" id="environment" />
           <RakeTaskImpl id="railties">
             <subtasks>
