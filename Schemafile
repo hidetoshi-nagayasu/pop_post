@@ -2,10 +2,13 @@ create_table "users", id: :bigint, unsigned: true, force: :cascade, options: "EN
   t.string "name", null: false
   t.string "introduction"
   t.string "email", null: false, unique: true
-  t.string "password", null: false
+  t.string "crypted_password", null: false
+  t.string "salt"
   t.datetime "created_at", precision: 6, null: false
   t.datetime "updated_at", precision: 6, null: false
   t.datetime "deleted_at", precision: 6
+
+  t.index ["email"], name: "email_unique_idx", unique: true
 end
 
 create_table "posts", id: :bigint, unsigned: true, force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8mb4" do |t|
