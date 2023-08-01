@@ -7,9 +7,15 @@
   font-family: 'Noto Sans JP', sans-serif;
 }
 
-xy-center {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translateY(-50%) translateX(-50%);
+//============================================
+// Colors
+//============================================
+$colors: (
+    primary: #98b1e9,
+    header-text-primary: #737373,
+    text-secondary: #999999
+);
+
+@function colors($key) {
+  @return map-get($colors, $key)
 }

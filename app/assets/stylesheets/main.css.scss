@@ -1,5 +1,39 @@
-body, bodys {
+@import 'application';
+
+.background-all-screen {
   display: block;
   width: 100vw;
   height: 100vh;
+  position: relative;
+}
+
+.login-wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-70%) translateX(-50%);
+  width: 360px;
+
+  h1 {
+    margin-bottom: 36px;
+    color: colors(header-text-primary);
+  }
+
+  label {
+    color: colors(text-secondary);
+  }
+
+  .submit {
+    background-color: colors(primary);
+    color: white;
+  }
+
+  .link {
+    margin-top: 48px;
+    color: colors(text-secondary);
+
+    a {
+      color: colors(primary);
+    }
+  }
 }
