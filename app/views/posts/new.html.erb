@@ -1,2 +1,18 @@
-<h1>Posts#new</h1>
-<p>Find me in app/views/posts/new.html.erb</p>
+<div class="background-all-screen">
+  <div class="login-wrapper mx-auto my-auto">
+    <div>
+      <h1>New Post</h1>
+
+      <%= form_with(url: "/posts", method: :post, model: @post) do |f| %>
+        <div class="mb-4">
+          <%= f.label :body, class: "form-label" %>
+          <%= f.text_area :body, class: "form-control", size: "20x10" %>
+        </div>
+
+        <div class="pt-3">
+          <%= f.submit "投稿する", class: "submit btn d-block col-12" %>
+        </div>
+      <% end %>
+    </div>
+  </div>
+</div>
